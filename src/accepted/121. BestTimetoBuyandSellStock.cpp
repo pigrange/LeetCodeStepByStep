@@ -16,3 +16,16 @@ class Solution {
     return res;
   }
 };
+
+class Solution {
+ public:
+  int maxProfit(vector<int>& prices) {
+    if (prices.empty()) return 0;
+    int buy = prices[0], sale = 0, res = 0;
+    for (auto p : prices) {
+      if (p - buy > res) res = p - buy;
+      if (p < buy) buy = p;
+    }
+    return res;
+  }
+};
