@@ -42,7 +42,10 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "set": "cpp"
+        "set": "cpp",
+        "list": "cpp",
+        "unordered_set": "cpp"
     },
-    "python.pythonPath": "D:\\Tools\\Python\\python.exe"
+    "python.pythonPath": "D:\\Tools\\Python\\python.exe",
+    "C_Cpp.errorSquiggles": "Enabled"
 }
